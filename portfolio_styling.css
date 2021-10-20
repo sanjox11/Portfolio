@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+.container{
+    position: relative;
+}
+#navbar{
+    background-color: rgb(22, 20, 20);
+    color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    height: 50px;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-content: center;
+}
+#header{
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    width:96.7%;
+    font-size: 30px;
+    top: 80px;
+    position: relative;
+    text-align: left;
+    background: black;
+    padding: 20px;
+}
+
+
+
+.bt-2{
+    width: 150px;
+    height: 40px;
+    left: 10px;
+    top: 5px;
+    bottom: 10px;
+    border: none;
+    color: black;
+    border-radius: 30px;
+    transition: ease-out 0.3s;
+    font-size: 1.3rem;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+
+.bt-2:hover{
+    color: rgb(3, 14, 112);
+
+    cursor: pointer;
+    background-color: rgb(201, 253, 122);
+
+}
+
+.bt-2:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgb(150, 243, 11);
+}
+
+.background{
+     width: 1263px;
+     height: 550px;
+     margin-top: 0%;
+     top: 90px;
+     position: relative;
+     font-family: 'Source Sans Pro', sans-serif;
+     background-size: contain;
+    overflow: hidden;
+     overflow-y: hidden;
+     z-index: -1;
+}
+
+.greetings{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.inner-image{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        border: 6px solid white;
+        top: 350px;
+        left: 950px;   
+        z-index: 1;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.backgroundimg{
+		z-index: -1;
+    background-image: url(white\ bg2.jpg);
+    padding: 40px;
+    right: 0;
+    padding-right: 300px;
+    position: relative;
+    top: 80px;
+    height: 300px;
+    color: white;
+    }
+    
+    .textbox {
+    
+    width:auto;
+    height: 200px;
+    padding: 40px;
+    opacity: 0.8;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    
+    }
+    
+    .text {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    }
+
+  .skillsbadge{
+      height: 150px;
+      width: 150px;
+      padding-right: 20px;
+  }
+
+  .backgroundimg1{
+		
+    background-image: url(white\ bg2.jpg);
+    padding: 40px;
+    padding-right: 300px;
+    position: relative;
+    top: 80px;
+    height: 650px;
+    color: white;
+    }
+  .school_logo{
+    height: 180px;
+    width: 200px;
+    right: 20px;
+    float: left;
+    margin: 0.0 10px 10px;
+  }
+  .textbox1 {
+    
+    width:auto;
+    height: 200px;
+    padding: 40px;
+    opacity: 0.8;
+    background-color: black;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    
+    }
+
+    .backgroundimg2{
+		
+        background-image: url(white\ bg2.jpg);
+        padding: 40px;
+        padding-right: 300px;
+        position: relative;
+        top: 100px;
+        height: 200px;
+        color: white;
+        }
+
+
+#footer{
+    background: black;
+    color: white;
+    height: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    padding: 20px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: black;
+}
