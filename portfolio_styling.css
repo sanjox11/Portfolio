@@ -3,8 +3,11 @@
 .container{
     position: relative;
 }
+#pic {
+border-radius :100%;
+}
 #navbar{
-    background-color: rgb(22, 20, 20);
+    background-color: rgb(19, 20, 22);
     color: white;
     position: fixed;
     top: 0px;
@@ -47,11 +50,11 @@
 }
 
 .bt-2:hover{
-    color: rgb(3, 14, 112);
-
+    color: white;
     cursor: pointer;
-    background-color: rgb(201, 253, 122);
-
+    background-color: rgb(137, 204, 37);
+    border-width: 10px;
+    border-color:white;
 }
 
 .bt-2:before{
@@ -77,6 +80,7 @@
     overflow: hidden;
      overflow-y: hidden;
      z-index: -1;
+     opacity: 100%;
 }
 
 .greetings{
@@ -97,6 +101,7 @@
         left: 950px;   
         z-index: 1;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -106,7 +111,7 @@
 
 .backgroundimg{
 		z-index: -1;
-    background-image: url(white\ bg2.jpg);
+    background-image: url(images/white\ bg2.jpg);
     padding: 40px;
     right: 0;
     padding-right: 300px;
@@ -131,7 +136,6 @@
     .text {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    
     }
 
   .skillsbadge{
@@ -142,7 +146,7 @@
 
   .backgroundimg1{
 		
-    background-image: url(white\ bg2.jpg);
+    background-image: url(images/white\ bg2.jpg);
     padding: 40px;
     padding-right: 300px;
     position: relative;
@@ -172,7 +176,7 @@
 
     .backgroundimg2{
 		
-        background-image: url(white\ bg2.jpg);
+        background-image: url(images/white\ bg2.jpg);
         padding: 40px;
         padding-right: 300px;
         position: relative;
